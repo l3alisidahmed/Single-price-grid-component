@@ -1,0 +1,110 @@
+@font-face {
+    font-family: Karla;
+    src: url(./Fonts/Karla/static/Karla-Regular.ttf);
+}
+
+:root {
+    --Cayon-Color: hsl(179, 62%, 43%);
+    --Bright-Yellow-Color: hsl(71, 73%, 54%);
+    --Light-Grey-Color: hsl(204, 43%, 93%);
+    --Grayish-Blue-Color: hsl(218, 22%, 67%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Karla;
+    background-color: var(--Light-Grey-Color);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.first {
+    padding: 40px;
+    background-color: rgb(255, 255, 255);
+}
+
+.first h2 {
+    color: var(--Cayon-Color);
+}
+
+.first h3 {
+    margin-top: 20px;
+    color: var(--Bright-Yellow-Color);
+}
+
+.first p {
+    margin-top: 10px;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+.first p {
+    color: var(--Grayish-Blue-Color);
+}
+
+.Second {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.third {
+    padding: 40px;
+    background-color: var(--Cayon-Color);
+}
+
+.third h3 {
+    margin-bottom: 15px;
+}
+
+.third h2,
+.third h3, 
+.third p, 
+.fourth h3 {
+    color: var(--Light-Grey-Color);
+}
+
+.third span {
+    color: hsla(216, 20%, 85%, 0.853);
+}
+
+.third p {
+    margin-top: 15px;
+}
+
+.third span h2 {
+    display: inline;
+}
+
+.third input {
+    font-weight: 700;
+    border-radius: 5px;
+    margin-top: 45px;
+    background-color: var(--Bright-Yellow-Color);
+    padding: 17px 95px;
+    border: none;
+    color: var(--Light-Grey-Color);
+}
+
+.fourth {
+    padding: 40px;
+    background-color: #4abebd;
+}
+
+.fourth ul {
+    margin-top: 25px;
+    list-style: none;
+}
+
+.fourth li {
+    margin-bottom: 3px;
+    color: hsla(216, 20%, 85%, 0.853);
+}
